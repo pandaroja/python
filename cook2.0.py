@@ -1,0 +1,10 @@
+#programm para cocinos. version 2.0
+print("Bienvenido a nuestro cusro!")
+food= input("Escribe, por favor, vuestro plato favorito? ")
+food2= input("Escribe, otra vez, postre favorito? ")
+drink= input("Dime, qué tipo bebidas tú prefieres? ")
+print("\n\nAhora creamos plato nuevo para tí.")
+new_food = (food+food2+" con "+drink)
+print(new_food.upper())
+print("Toma " +food + " y "+ food2+ " echa " +drink+ " mezcla en licuadora")
+input("\n\nClik Enter, para salir")
